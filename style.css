@@ -1,0 +1,55 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif , 'poppins';
+}
+body{
+   
+  background: linear-gradient(45deg, rgb(62, 47, 47), rgb(58, 5, 58));
+}
+
+.app{
+    background-color: azure;
+    width: 90%;
+    max-width: 700px;
+    border-radius: 10%;
+    padding: 30px;
+    margin: 100px auto 0;
+    height: 400px;
+}
+.app h1{
+    color: black;
+    padding-bottom: 10px;
+    border-bottom: 4px solid black;
+    /* font-size: larger; */
+    font-weight: 40px;
+    font-style: italic;
+
+}
+.quiziffy{
+    padding: 20px 0;
+}
+.quiziffy h2{
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+}
+#btn{
+    background-color: rgb(42, 31, 77);
+    color: rgb(250, 249, 249);
+    border:2px solid rgb(2, 2, 2);
+    padding: 10px;
+    margin: 10px 0;
+    font-weight: 500;
+    text-align: left;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s;
+}
+#btn:hover{
+background-color:black;
+color: white;
+}
+
