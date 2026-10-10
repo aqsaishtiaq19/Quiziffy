@@ -1,3 +1,4 @@
+
 const question =[
 {
     question: "What is the largest organ of the human body?",
@@ -6,6 +7,7 @@ const question =[
         { text:"blood", correct:false },
         { text:"Hair", correct:false },
     ]
+    
 },
 {
     question: "After death, which stays viable longer?",
@@ -60,5 +62,25 @@ const question =[
         }
 
 ]
+ 
+
 const questionElement = document.getElementsByClassName("question");
 const answerElement= document.getElementById("answer"); 
+const nextElement= document.getElementById("next");
+/here i used the concept of DOM(Document object module)/ 
+
+let questionIndex = 0;
+let scrore = 0;
+/here i decleared the terms / 
+function startQuiz(){
+    currentQuestionIndex=0;
+    score=0;
+    nextBtn.innerHtml="Next";
+    showQuestion();
+}
+function showQuestion(){
+let currentQuestion = question[currentQuestionIndex]
+let questionNo= currentQuestionIndex + 1;
+question.innerHtml=questionNo + "." + currentQuestion.question;
+
+}
