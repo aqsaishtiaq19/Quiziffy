@@ -39,7 +39,7 @@ const question =[
     question:"How do bats reproduce?",
     answers:[
         {text:"Lay eggs", correct:false},
-        {text:"Give birth to live young but don't feed them milk",correct:flase },
+        {text:"Give birth to live young but don't feed them milk",correct:false },
         {text:"Give birth and nurse with milk",correct:true} 
      ]
     },
@@ -75,12 +75,22 @@ let scrore = 0;
 function startQuiz(){
     currentQuestionIndex=0;
     score=0;
-    nextBtn.innerHtml="Next";
+    next.innerHtml="Next";
     showQuestion();
 }
 function showQuestion(){
 let currentQuestion = question[currentQuestionIndex]
 let questionNo= currentQuestionIndex + 1;
 question.innerHtml=questionNo + "." + currentQuestion.question;
+ 
 
+currentQuestion.answer.forEach(answer=>
+{
+    const btn=document.getElementById("btn");
+    btn.innerHTML= answer.text ;
+    btn.classList.add("btn");
+    answerBtn.appenChild("btn");
 }
+)
+}
+startQuiz();
