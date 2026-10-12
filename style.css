@@ -1,44 +1,48 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: sans-serif , 'poppins';
-}
-body{
-   
-  background: linear-gradient(45deg, rgb(62, 47, 47), rgb(58, 5, 58));
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-.app{
+body {
+    background: linear-gradient(45deg, rgb(62, 47, 47), rgb(58, 5, 58));
+    min-height: 100vh;
+}
+
+.app {
     background-color: azure;
     width: 90%;
     max-width: 700px;
     border-radius: 10%;
     padding: 30px;
     margin: 100px auto 0;
-    height: 450px;
+    min-height: 450px;
 }
-.app h1{
+
+.app h1 {
     color: black;
     padding-bottom: 10px;
     border-bottom: 4px solid black;
-    /* font-size: larger; */
-    font-weight: 40px;
+    font-weight: 700;
     font-style: italic;
-
 }
-.quiziffy{
+
+.quiziffy {
     padding: 20px 0;
 }
-.quiziffy h2{
+
+.quiziffy h2 {
     font-size: 25px;
     color: black;
     font-weight: 600;
 }
-#btn{
+
+.btn {
     background-color: rgb(42, 31, 77);
     color: rgb(250, 249, 249);
-    border:2px solid rgb(2, 2, 2);
+    border: 2px solid rgb(2, 2, 2);
     padding: 10px;
     margin: 10px 0;
     font-weight: 500;
@@ -48,22 +52,41 @@ body{
     width: 100%;
     transition: all 0.3s;
 }
-#btn:hover{
-background-color:black;
-color: white;
+
+.btn:hover:not(:disabled) {
+    background-color: black;
+    color: white;
 }
 
-#next{
+.btn:disabled {
+    cursor: not-allowed;
+}
+
+.btn.correct {
+    background-color: #218838;
+    color: white;
+}
+
+.btn.incorrect {
+    background-color: #c82333;
+    color: white;
+}
+
+#next {
     background-color: rgb(42, 31, 77);
     color: rgb(250, 249, 249);
-    border:2px solid rgb(2, 2, 2);
-    padding: 10px;
+    border: 2px solid rgb(2, 2, 2);
+    padding: 10px 25px;
     margin: 5px auto 0;
     font-weight: 500;
-    text-align: left;
+    text-align: center;
     border-radius: 2px;
     cursor: pointer;
-    display:none;
+    display: none;
     transition: all 0.3s;
+}
 
+#next:hover {
+    background-color: black;
+    color: white;
 }
