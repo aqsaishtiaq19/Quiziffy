@@ -11,7 +11,7 @@ A simple, interactive quiz app built with vanilla **HTML5, CSS3, and JavaScript*
 👉 https://visionary-jalebi-60fbab.netlify.app
 
 ## 📸 Preview
-<img width="859" height="431" alt="Quiziffy quiz screen showing a question with answer options" src="https://github.com/user-attachments/assets/88665269-20a4-483f-9cb9-dab5673253e5" />
+<img width="837" height="413" alt="image" src="https://github.com/user-attachments/assets/2c4c38fd-111f-48ba-88b6-6380dd52c1f1" />
 
 ## ✨ Features
 - ❓ Multiple-choice questions shown one at a time
