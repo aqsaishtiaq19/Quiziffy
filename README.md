@@ -46,4 +46,4 @@ A simple, interactive quiz app built with vanilla **HTML5, CSS3, and JavaScript*
 **Aqsa Ishtiaq** | [GitHub](https://github.com/aqsaishtiaq19) | [LinkedIn](https://www.linkedin.com/in/aqsa-ishtiaq-67523627a)
 
 ## 📄 License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is open source and available under the [MIT License](LICENSE).
